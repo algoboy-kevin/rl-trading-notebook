@@ -1,0 +1,44 @@
+test_name: "DQN"
+
+model_config:
+  test_name: "DQN"
+  rl_algo: "DQN"
+  policy: "MlpPolicy"
+  verbose: 1
+  learning_rate: 0.001
+  gamma: 0.99999
+  batch_size: 512
+  buffer_size: 200000  
+  learning_starts: 1000  
+  target_update_interval: 2000  
+  train_freq: 10
+  gradient_steps: 1
+  exploration_fraction: 0.1 
+  exploration_initial_eps: 1.0
+  exploration_final_eps: 0.01
+  max_grad_norm: 0.5
+
+env_config:
+  starting_balance: 1000   
+  leverage: 1            
+  comission_trade: 0.003
+  comission_funding: 0.001  
+  max_order: 5     
+  is_random_inventory: false
+  is_record_history: false  
+  is_long_only: true   
+  is_scalping: true    
+  no_negative_reward: false 
+  ending_bonus_reward: false
+  indicators: ["SMA60", "SMA5", "SMA20"]
+  derived_indicators: ["V3"]
+  strategy_type: "DUAL_MA"
+  is_random: true
+  action: "default"
+  
+
+
+  
+  
+
+

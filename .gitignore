@@ -1,0 +1,8 @@
+__pycache__
+data/*/*.csv
+data/price_history/*.csv
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+*.png
