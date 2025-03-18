@@ -1,10 +1,13 @@
 # Reinforcement Learning Trading Notebook
 
-This repository contains step by step process training RL for trading cryptocurrencies. There are three main notebooks:
+This repository contains step by step process training RL for trading cryptocurrencies. Please note that most of this project is currently being migrated from private repo to here. There are three main notebooks:
 
 1. **Data** – Generating data for testing via binance download or sythethic data.
 2. **Train** – Related to model training with varying training method
 3. **Test** – Validate model accuracy
+
+## Overview
+![RL Training Process](https://assets.algoboy-kevin.com/rl-trading-concept.png)
 
 ## Installation
 
